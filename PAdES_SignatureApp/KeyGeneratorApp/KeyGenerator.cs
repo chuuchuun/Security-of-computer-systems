@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Security.Cryptography;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
 namespace KeyGeneratorApp
@@ -17,7 +18,7 @@ namespace KeyGeneratorApp
         {
             using var rsa = new RSACryptoServiceProvider(4096);
             var privateKeyBytes = rsa.ExportRSAPrivateKey();
-            var publicKeyBytes = rsa.ExportRSAPublicKey();
+            var publicKeyBytes = rsa.ExportSubjectPublicKeyInfo();
 
             var encryptedPrivateKey = AesEncrypt(privateKeyBytes, pin);
 

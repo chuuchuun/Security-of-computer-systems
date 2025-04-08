@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GuWP8gCe4L4=",
+  "dgSpecHash": "CYMwt959mpo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\alla\\Desktop\\bsk\\PAdES_SignatureApp\\PAdES_SignatureApp\\PAdES_SignatureApp.csproj",
+  "projectFilePath": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\PAdES_SignatureApp\\PAdES_SignatureApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alla\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\bouncycastle.cryptography.2.4.0.nupkg.sha512",
     "C:\\Users\\alla\\.nuget\\packages\\itextsharp\\5.5.13.4\\itextsharp.5.5.13.4.nupkg.sha512",

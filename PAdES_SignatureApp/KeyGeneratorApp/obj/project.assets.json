@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alla\\Desktop\\bsk\\PAdES_SignatureApp\\KeyGeneratorApp\\KeyGeneratorApp.csproj",
+      "projectUniqueName": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\KeyGeneratorApp\\KeyGeneratorApp.csproj",
       "projectName": "KeyGeneratorApp",
-      "projectPath": "C:\\Users\\alla\\Desktop\\bsk\\PAdES_SignatureApp\\KeyGeneratorApp\\KeyGeneratorApp.csproj",
+      "projectPath": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\KeyGeneratorApp\\KeyGeneratorApp.csproj",
       "packagesPath": "C:\\Users\\alla\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alla\\Desktop\\bsk\\PAdES_SignatureApp\\KeyGeneratorApp\\obj\\",
+      "outputPath": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\KeyGeneratorApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

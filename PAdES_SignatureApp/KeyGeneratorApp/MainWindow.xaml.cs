@@ -65,7 +65,12 @@ namespace KeyGeneratorApp
                 }
 
                 File.WriteAllBytes(Path.Combine(usbPath, "privateKey.enc"), privateKey);
-                File.WriteAllBytes(Path.Combine(usbPath, "publicKey.pem"), publicKey);
+
+                string base64Key = Convert.ToBase64String(publicKey);
+                string pem = "-----BEGIN PUBLIC KEY-----\n" +
+                             InsertLineBreaks(base64Key, 64) +
+                             "\n-----END PUBLIC KEY-----";
+                File.WriteAllText(Path.Combine(usbPath, "publicKey.pem"), pem);
 
                 StatusBlock.Text = $"Status: Keys saved to USB ({usbPath}) successfully.";
             }
@@ -74,5 +79,12 @@ namespace KeyGeneratorApp
                 StatusBlock.Text = "Status: Error writing to USB - " + ex.Message;
             }
         }
+
+        private static string InsertLineBreaks(string input, int lineLength)
+        {
+            return string.Join("\n", Enumerable.Range(0, (input.Length + lineLength - 1) / lineLength)
+                .Select(i => input.Substring(i * lineLength, Math.Min(lineLength, input.Length - i * lineLength))));
+        }
+
     }
 }

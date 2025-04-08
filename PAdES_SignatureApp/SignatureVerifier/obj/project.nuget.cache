@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p+LL7KdCoWM=",
+  "dgSpecHash": "ajdAXWtnme0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\alla\\Desktop\\bsk\\PAdES_SignatureApp\\SignatureVerifier\\SignatureVerifier.csproj",
+  "projectFilePath": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\SignatureVerifier\\SignatureVerifier.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alla\\.nuget\\packages\\pdfsharpcore\\1.3.67\\pdfsharpcore.1.3.67.nupkg.sha512",
     "C:\\Users\\alla\\.nuget\\packages\\sharpziplib\\1.4.2\\sharpziplib.1.4.2.nupkg.sha512",

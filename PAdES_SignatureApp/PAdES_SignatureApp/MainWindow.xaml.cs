@@ -1,6 +1,7 @@
 ﻿using Microsoft.Win32;
 using System.Windows;
 using System.IO;
+using System.Linq;
 
 namespace PAdES_SignerApp
 {
@@ -43,11 +44,21 @@ namespace PAdES_SignerApp
 
             try
             {
-                // Read encrypted private key from USB
-                var encryptedKey = File.ReadAllBytes("E:\\privateKey.enc");
+                var usbDrive = DriveInfo.GetDrives()
+                    .Where(d => d.DriveType == DriveType.Removable && d.IsReady)
+                    .FirstOrDefault(d => File.Exists(Path.Combine(d.RootDirectory.FullName, "privateKey.enc")));
+
+                if (usbDrive == null)
+                {
+                    MessageBox.Show("No USB drive with privateKey.enc found.");
+                    return;
+                }
+
+                string keyPath = Path.Combine(usbDrive.RootDirectory.FullName, "privateKey.enc");
+
+                var encryptedKey = File.ReadAllBytes(keyPath);
                 decryptedPrivateKey = CryptoHelper.DecryptPrivateKey(encryptedKey, pin);
 
-                // Sign the PDF
                 var outputPath = Signer.SignPdf(selectedPdfPath, decryptedPrivateKey);
                 StatusBlock.Text = $"PDF signed: {outputPath}";
             }
