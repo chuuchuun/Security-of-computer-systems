@@ -1,0 +1,14 @@
+﻿<Window x:Class="PAdES_SignerApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="PDF Signer" Height="300" Width="500">
+    <Grid Margin="20">
+        <StackPanel VerticalAlignment="Center">
+            <TextBlock Text="Enter your PIN:" Margin="0,0,0,5" />
+            <TextBox Name="PinBox" Height="30" Margin="0,0,0,15" />
+            <Button Content="Load PDF" Click="LoadPdf_Click" Margin="0,0,0,10" Height="30"/>
+            <Button Content="Sign PDF" Click="SignPdf_Click" Height="30"/>
+            <TextBlock Name="StatusBlock" Margin="0,20,0,0" Foreground="Green"/>
+        </StackPanel>
+    </Grid>
+</Window>

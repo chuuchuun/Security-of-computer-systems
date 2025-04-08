@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "p+LL7KdCoWM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alla\\Desktop\\bsk\\PAdES_SignatureApp\\SignatureVerifier\\SignatureVerifier.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alla\\.nuget\\packages\\pdfsharpcore\\1.3.67\\pdfsharpcore.1.3.67.nupkg.sha512",
+    "C:\\Users\\alla\\.nuget\\packages\\sharpziplib\\1.4.2\\sharpziplib.1.4.2.nupkg.sha512",
+    "C:\\Users\\alla\\.nuget\\packages\\sixlabors.fonts\\1.0.0-beta17\\sixlabors.fonts.1.0.0-beta17.nupkg.sha512",
+    "C:\\Users\\alla\\.nuget\\packages\\sixlabors.imagesharp\\1.0.4\\sixlabors.imagesharp.1.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

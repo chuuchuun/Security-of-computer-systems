@@ -1,0 +1,33 @@
+﻿<Window x:Class="KeyGeneratorApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KeyGeneratorApp"
+        mc:Ignorable="d"
+        Title="Key Generator" Height="300" Width="500">
+    <Grid Margin="20">
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="300">
+
+            <!-- PIN Input -->
+            <TextBlock Text="Enter your PIN:" Margin="0,0,0,5" />
+            <TextBox Name="PinBox" Height="30" Margin="0,0,0,15" />
+
+            <!-- Buttons -->
+            <Button Name="GenerateKeyPairButton" Content="Generate Key Pair"
+                    Height="35" Margin="0,0,0,10"
+                    Click="GenerateKeyPairButton_Click"/>
+
+            <Button Name="SaveToUSBButton" Content="Save to USB"
+                    Height="35" Click="SaveToUSBButton_Click"/>
+
+            <!-- Status message -->
+            <TextBlock Name="StatusBlock" Margin="0,20,0,0"
+                       Foreground="DarkSlateBlue"
+                       FontWeight="Bold"
+                       FontSize="14"
+                       Text="Status: Waiting..."
+                       TextWrapping="Wrap"/>
+        </StackPanel>
+    </Grid>
+</Window>
