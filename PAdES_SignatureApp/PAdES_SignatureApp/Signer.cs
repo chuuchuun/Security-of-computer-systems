@@ -6,12 +6,18 @@ using System.Reflection.PortableExecutable;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace PAdES_SignerApp
+namespace PAdES_SignatureApp
 {
     public static class Signer
     {
         public static string SignPdf(string filePath, byte[] privateKeyBytes)
         {
+            if (string.IsNullOrEmpty(filePath))
+            {
+                throw new ArgumentException("File path cannot be null or empty.", nameof(filePath));
+            }
+
+            string? directoryPath = Path.GetDirectoryName(filePath) ?? throw new InvalidOperationException("The directory path could not be determined.");
             byte[] fileBytes = File.ReadAllBytes(filePath);
             byte[] hash = SHA256.HashData(fileBytes);
 
@@ -19,7 +25,7 @@ namespace PAdES_SignerApp
             rsa.ImportRSAPrivateKey(privateKeyBytes, out _);
             byte[] signature = rsa.SignHash(hash, HashAlgorithmName.SHA256, RSASignaturePadding.Pkcs1);
 
-            string outputPath = Path.Combine(Path.GetDirectoryName(filePath), "Signed_" + Path.GetFileName(filePath));
+            string outputPath = Path.Combine(directoryPath, "Signed_" + Path.GetFileName(filePath));
             using var doc = PdfReader.Open(filePath, PdfDocumentOpenMode.Modify);
             var page = doc.Pages[0];
             var gfx = PdfSharpCore.Drawing.XGraphics.FromPdfPage(page);
@@ -33,6 +39,5 @@ namespace PAdES_SignerApp
 
             return outputPath;
         }
-
     }
 }

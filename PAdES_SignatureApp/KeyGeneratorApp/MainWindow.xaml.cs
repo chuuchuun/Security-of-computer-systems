@@ -7,8 +7,8 @@ namespace KeyGeneratorApp
 {
     public partial class MainWindow : Window
     {
-        private byte[] privateKey;
-        private byte[] publicKey;
+        private byte[]? privateKey;
+        private byte[]? publicKey;
 
         public MainWindow()
         {
@@ -43,7 +43,7 @@ namespace KeyGeneratorApp
 
         private void SaveToUSBButton_Click(object sender, RoutedEventArgs e)
         {
-            if (privateKey == null || publicKey == null)
+            if (privateKey is null || publicKey is null)
             {
                 StatusBlock.Text = "Status: Please generate the key pair first.";
                 return;
@@ -53,7 +53,7 @@ namespace KeyGeneratorApp
             {
                 StatusBlock.Text = "Status: Searching for USB drive...";
 
-                string usbPath = DriveInfo.GetDrives()
+                string? usbPath = DriveInfo.GetDrives()
                     .Where(d => d.DriveType == DriveType.Removable && d.IsReady)
                     .Select(d => d.RootDirectory.FullName)
                     .FirstOrDefault();

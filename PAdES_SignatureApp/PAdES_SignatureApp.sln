@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyGeneratorApp", "KeyGener
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignatureVerifier", "SignatureVerifier\SignatureVerifier.csproj", "{22D1EAF2-E13C-47B4-853A-1C2156EAA3EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{EB9DDF5E-97E4-46EE-A179-9E15B06F6753}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{22D1EAF2-E13C-47B4-853A-1C2156EAA3EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22D1EAF2-E13C-47B4-853A-1C2156EAA3EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22D1EAF2-E13C-47B4-853A-1C2156EAA3EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB9DDF5E-97E4-46EE-A179-9E15B06F6753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB9DDF5E-97E4-46EE-A179-9E15B06F6753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB9DDF5E-97E4-46EE-A179-9E15B06F6753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB9DDF5E-97E4-46EE-A179-9E15B06F6753}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
