@@ -2,7 +2,7 @@
 using System.IO;
 using System.Security.Cryptography;
 
-namespace PAdES_SignerApp
+namespace PAdES_SignatureApp
 {
     public static class CryptoHelper
     {
@@ -16,7 +16,7 @@ namespace PAdES_SignerApp
             ms.Read(salt, 0, 16);
             ms.Read(iv, 0, 16);
 
-            var key = new Rfc2898DeriveBytes(pin, salt, 100_000);
+            var key = new Rfc2898DeriveBytes(pin, salt, 100_000, HashAlgorithmName.SHA256);
             aes.Key = key.GetBytes(32);
             aes.IV = iv;
 

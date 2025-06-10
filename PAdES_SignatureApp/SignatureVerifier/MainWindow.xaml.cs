@@ -1,11 +1,10 @@
 ﻿using Microsoft.Win32;
 using PdfSharpCore.Pdf;
 using PdfSharpCore.Pdf.IO;
+using SignatureVerifier;
 using System;
 using System.IO;
-using System.Reflection.PortableExecutable;
 using System.Security.Cryptography;
-using System.Text;
 using System.Windows;
 using System.Windows.Media;
 
@@ -13,8 +12,8 @@ namespace SignatureVerifierApp
 {
     public partial class MainWindow : Window
     {
-        private string publicKeyPath;
-        private string pdfPath;
+        private string? publicKeyPath;
+        private string? pdfPath;
 
         public MainWindow()
         {
@@ -43,7 +42,6 @@ namespace SignatureVerifierApp
             UpdateStatus("❗ Public key not found on any USB drive.", Brushes.OrangeRed);
         }
 
-
         private void UpdateStatus(string message, Brush color)
         {
             StatusBlock.Text = "Status: " + message;
@@ -52,8 +50,10 @@ namespace SignatureVerifierApp
 
         private void LoadPdf_Click(object sender, RoutedEventArgs e)
         {
-            var dlg = new OpenFileDialog();
-            dlg.Filter = "PDF Files|*.pdf";
+            var dlg = new OpenFileDialog
+            {
+                Filter = "PDF Files|*.pdf"
+            };
             if (dlg.ShowDialog() == true)
             {
                 pdfPath = dlg.FileName;
@@ -74,7 +74,7 @@ namespace SignatureVerifierApp
                 UpdateStatus("🔍 Reading public key...", Brushes.DarkBlue);
 
                 string pem = File.ReadAllText(publicKeyPath);
-                byte[] pubKeyBytes = LoadPublicKeyFromPem(pem);
+                byte[] pubKeyBytes = SignatureVerifierUtils.LoadPublicKeyFromPem(pem);
 
                 using var rsa = RSA.Create();
                 rsa.ImportSubjectPublicKeyInfo(pubKeyBytes, out _);
@@ -85,13 +85,14 @@ namespace SignatureVerifierApp
                 byte[] hash = SHA256.HashData(fileBytes);
 
                 var doc = PdfReader.Open(pdfPath, PdfDocumentOpenMode.ReadOnly);
-                string keywords = doc.Info.Keywords;
-                byte[] signature = ExtractSignatureFromMetadata(keywords);
-                byte[] originalHash = ExtractHashFromMetadata(keywords);
+                string keywords = doc.Info.Keywords ?? throw new Exception("No metadata found in PDF.");
+
+                byte[] signature = SignatureVerifierUtils.ExtractSignatureFromMetadata(keywords);
+                byte[] originalHash = SignatureVerifierUtils.ExtractHashFromMetadata(keywords);
 
                 UpdateStatus("🔍 Verifying signature...", Brushes.DarkBlue);
-                bool valid = rsa.VerifyHash(originalHash, signature, HashAlgorithmName.SHA256, RSASignaturePadding.Pkcs1);
 
+                bool valid = rsa.VerifyHash(originalHash, signature, HashAlgorithmName.SHA256, RSASignaturePadding.Pkcs1);
 
                 if (valid)
                     UpdateStatus("✅ Signature is VALID!", Brushes.Green);
@@ -103,55 +104,5 @@ namespace SignatureVerifierApp
                 UpdateStatus("❗ Error: " + ex.Message, Brushes.Red);
             }
         }
-
-        private byte[] ExtractHashFromMetadata(string metadata)
-        {
-            const string marker = "Hash:";
-            int index = metadata.IndexOf(marker);
-            if (index < 0)
-                throw new Exception("Original hash not found in metadata.");
-
-            string base64 = metadata.Substring(index + marker.Length).Split('|')[0].Trim();
-            return Convert.FromBase64String(base64);
-        }
-
-
-        private byte[] ExtractSignatureFromMetadata(string metadata)
-        {
-            const string marker = "PAdES_Signature:";
-            int index = metadata.IndexOf(marker);
-            if (index < 0)
-                throw new Exception("Signature not found in metadata.");
-
-            string base64 = metadata.Substring(index + marker.Length).Split('|')[0].Trim();
-            return Convert.FromBase64String(base64);
-        }
-
-        private byte[] LoadPublicKeyFromPem(string pem)
-        {
-            Console.WriteLine("PEM content:\n" + pem);
-
-            const string header = "-----BEGIN PUBLIC KEY-----";
-            const string footer = "-----END PUBLIC KEY-----";
-
-            int start = pem.IndexOf(header);
-            int end = pem.IndexOf(footer);
-
-            if (start < 0 || end < 0 || end <= start)
-                throw new Exception("Invalid PEM format. Could not find public key markers.");
-
-            start += header.Length;
-            string base64 = pem.Substring(start, end - start)
-                               .Replace("\n", "")
-                               .Replace("\r", "")
-                               .Trim();
-
-            if (string.IsNullOrWhiteSpace(base64))
-                throw new Exception("PEM content is empty or improperly formatted.");
-
-            return Convert.FromBase64String(base64);
-        }
-
-
     }
 }

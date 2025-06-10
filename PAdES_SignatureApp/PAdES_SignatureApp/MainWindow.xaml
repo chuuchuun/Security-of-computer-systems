@@ -1,4 +1,4 @@
-﻿<Window x:Class="PAdES_SignerApp.MainWindow"
+﻿<Window x:Class="PAdES_SignatureApp.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="PDF Signer" Height="300" Width="500">

@@ -8,8 +8,8 @@ namespace KeyGeneratorApp
 {
     public class KeyPairResult
     {
-        public byte[] EncryptedPrivateKey { get; set; }
-        public byte[] PublicKey { get; set; }
+        public byte[]? EncryptedPrivateKey { get; set; }
+        public byte[]? PublicKey { get; set; }
     }
 
     public static class KeyGenerator
@@ -33,22 +33,24 @@ namespace KeyGeneratorApp
         {
             using var aes = Aes.Create();
             var salt = GenerateRandomBytes(16);
-            var key = new Rfc2898DeriveBytes(password, salt, 100_000);
+            var key = new Rfc2898DeriveBytes(password, salt, 100_000, HashAlgorithmName.SHA256); 
 
             aes.Key = key.GetBytes(32);
             aes.IV = GenerateRandomBytes(16);
 
             using var ms = new MemoryStream();
-            ms.Write(salt);
-            ms.Write(aes.IV);
+            ms.Write(salt, 0, salt.Length);
+            ms.Write(aes.IV, 0, aes.IV.Length);
 
             using (var cs = new CryptoStream(ms, aes.CreateEncryptor(), CryptoStreamMode.Write))
             {
                 cs.Write(data, 0, data.Length);
+                cs.FlushFinalBlock();
             }
 
             return ms.ToArray();
         }
+
 
         private static byte[] GenerateRandomBytes(int length)
         {
