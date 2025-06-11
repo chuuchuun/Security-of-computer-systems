@@ -1,0 +1,43 @@
+\doxysection{Key\+Generator\+App.\+Key\+Generator Class Reference}
+\hypertarget{class_key_generator_app_1_1_key_generator}{}\label{class_key_generator_app_1_1_key_generator}\index{KeyGeneratorApp.KeyGenerator@{KeyGeneratorApp.KeyGenerator}}
+
+
+Class responsible for generating RSA key pairs and encrypting the private key.  
+
+
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_key_generator_app_1_1_key_pair_result}{Key\+Pair\+Result}} \mbox{\hyperlink{class_key_generator_app_1_1_key_generator_a765aa7c6b3cd665931040c43c458cab2}{Generate\+Key\+Pair}} (string pin)
+\begin{DoxyCompactList}\small\item\em Generates an RSA key pair, encrypts the private key using a PIN, and returns both keys. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class responsible for generating RSA key pairs and encrypting the private key. 
+
+\label{doc-func-members}
+\Hypertarget{class_key_generator_app_1_1_key_generator_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_key_generator_app_1_1_key_generator_a765aa7c6b3cd665931040c43c458cab2}\index{KeyGeneratorApp.KeyGenerator@{KeyGeneratorApp.KeyGenerator}!GenerateKeyPair@{GenerateKeyPair}}
+\index{GenerateKeyPair@{GenerateKeyPair}!KeyGeneratorApp.KeyGenerator@{KeyGeneratorApp.KeyGenerator}}
+\doxysubsubsection{\texorpdfstring{GenerateKeyPair()}{GenerateKeyPair()}}
+{\footnotesize\ttfamily \label{class_key_generator_app_1_1_key_generator_a765aa7c6b3cd665931040c43c458cab2} 
+\mbox{\hyperlink{class_key_generator_app_1_1_key_pair_result}{Key\+Pair\+Result}} Key\+Generator\+App.\+Key\+Generator.\+Generate\+Key\+Pair (\begin{DoxyParamCaption}\item[{string}]{pin}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Generates an RSA key pair, encrypts the private key using a PIN, and returns both keys. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pin} & The user-\/provided PIN used to encrypt the private key.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A \doxylink{class_key_generator_app_1_1_key_pair_result}{Key\+Pair\+Result} containing the encrypted private key and the public key.
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Key\+Generator\+App/Key\+Generator.\+cs\end{DoxyCompactItemize}

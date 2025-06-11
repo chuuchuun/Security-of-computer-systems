@@ -1,0 +1,45 @@
+\doxysection{PAd\+ES\+\_\+\+Signature\+App.\+Crypto\+Helper Class Reference}
+\hypertarget{class_p_ad_e_s___signature_app_1_1_crypto_helper}{}\label{class_p_ad_e_s___signature_app_1_1_crypto_helper}\index{PAdES\_SignatureApp.CryptoHelper@{PAdES\_SignatureApp.CryptoHelper}}
+
+
+Provides cryptographic helper methods for decrypting private keys.  
+
+
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_p_ad_e_s___signature_app_1_1_crypto_helper_a1a30eb3b73e3f77e1d3741a58ebd916f}{Decrypt\+Private\+Key}} (byte\mbox{[}$\,$\mbox{]} data, string pin)
+\begin{DoxyCompactList}\small\item\em Decrypts an AES-\/encrypted private key using the provided PIN. Assumes the input data format contains a 16-\/byte salt followed by a 16-\/byte IV, then the encrypted key data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Provides cryptographic helper methods for decrypting private keys. 
+
+\label{doc-func-members}
+\Hypertarget{class_p_ad_e_s___signature_app_1_1_crypto_helper_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_p_ad_e_s___signature_app_1_1_crypto_helper_a1a30eb3b73e3f77e1d3741a58ebd916f}\index{PAdES\_SignatureApp.CryptoHelper@{PAdES\_SignatureApp.CryptoHelper}!DecryptPrivateKey@{DecryptPrivateKey}}
+\index{DecryptPrivateKey@{DecryptPrivateKey}!PAdES\_SignatureApp.CryptoHelper@{PAdES\_SignatureApp.CryptoHelper}}
+\doxysubsubsection{\texorpdfstring{DecryptPrivateKey()}{DecryptPrivateKey()}}
+{\footnotesize\ttfamily \label{class_p_ad_e_s___signature_app_1_1_crypto_helper_a1a30eb3b73e3f77e1d3741a58ebd916f} 
+byte\mbox{[}$\,$\mbox{]} PAd\+ES\+\_\+\+Signature\+App.\+Crypto\+Helper.\+Decrypt\+Private\+Key (\begin{DoxyParamCaption}\item[{byte\mbox{[}$\,$\mbox{]}}]{data}{, }\item[{string}]{pin}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Decrypts an AES-\/encrypted private key using the provided PIN. Assumes the input data format contains a 16-\/byte salt followed by a 16-\/byte IV, then the encrypted key data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & The encrypted private key data including salt and IV.\\
+\hline
+{\em pin} & The PIN used to derive the AES encryption key.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The decrypted private key bytes.
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+PAd\+ES\+\_\+\+Signature\+App/Crypto\+Helper.\+cs\end{DoxyCompactItemize}

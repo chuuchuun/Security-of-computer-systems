@@ -1,0 +1,90 @@
+\doxysection{Signature\+Verifier.\+Signature\+Verifier\+Utils Class Reference}
+\hypertarget{class_signature_verifier_1_1_signature_verifier_utils}{}\label{class_signature_verifier_1_1_signature_verifier_utils}\index{SignatureVerifier.SignatureVerifierUtils@{SignatureVerifier.SignatureVerifierUtils}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_signature_verifier_1_1_signature_verifier_utils_a03b02b1c4b659f1f3f51be93255ea87c}{Extract\+Hash\+From\+Metadata}} (string metadata)
+\begin{DoxyCompactList}\small\item\em Extracts the base64-\/encoded original hash from the PDF metadata string. \end{DoxyCompactList}\item 
+static byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_signature_verifier_1_1_signature_verifier_utils_a415e7fc46ccb65a484336708f036915f}{Extract\+Signature\+From\+Metadata}} (string metadata)
+\begin{DoxyCompactList}\small\item\em Extracts the base64-\/encoded digital signature from the PDF metadata string. \end{DoxyCompactList}\item 
+static byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_signature_verifier_1_1_signature_verifier_utils_a720a3fa74c9865989d9ba3cc54aee01b}{Load\+Public\+Key\+From\+Pem}} (string pem)
+\begin{DoxyCompactList}\small\item\em Parses a PEM formatted public key string and returns the DER encoded key bytes. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\label{doc-func-members}
+\Hypertarget{class_signature_verifier_1_1_signature_verifier_utils_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_signature_verifier_1_1_signature_verifier_utils_a03b02b1c4b659f1f3f51be93255ea87c}\index{SignatureVerifier.SignatureVerifierUtils@{SignatureVerifier.SignatureVerifierUtils}!ExtractHashFromMetadata@{ExtractHashFromMetadata}}
+\index{ExtractHashFromMetadata@{ExtractHashFromMetadata}!SignatureVerifier.SignatureVerifierUtils@{SignatureVerifier.SignatureVerifierUtils}}
+\doxysubsubsection{\texorpdfstring{ExtractHashFromMetadata()}{ExtractHashFromMetadata()}}
+{\footnotesize\ttfamily \label{class_signature_verifier_1_1_signature_verifier_utils_a03b02b1c4b659f1f3f51be93255ea87c} 
+byte\mbox{[}$\,$\mbox{]} Signature\+Verifier.\+Signature\+Verifier\+Utils.\+Extract\+Hash\+From\+Metadata (\begin{DoxyParamCaption}\item[{string}]{metadata}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Extracts the base64-\/encoded original hash from the PDF metadata string. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em metadata} & The PDF metadata string containing the hash.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The original hash as a byte array.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & Thrown if the hash marker is not found.\\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{class_signature_verifier_1_1_signature_verifier_utils_a415e7fc46ccb65a484336708f036915f}\index{SignatureVerifier.SignatureVerifierUtils@{SignatureVerifier.SignatureVerifierUtils}!ExtractSignatureFromMetadata@{ExtractSignatureFromMetadata}}
+\index{ExtractSignatureFromMetadata@{ExtractSignatureFromMetadata}!SignatureVerifier.SignatureVerifierUtils@{SignatureVerifier.SignatureVerifierUtils}}
+\doxysubsubsection{\texorpdfstring{ExtractSignatureFromMetadata()}{ExtractSignatureFromMetadata()}}
+{\footnotesize\ttfamily \label{class_signature_verifier_1_1_signature_verifier_utils_a415e7fc46ccb65a484336708f036915f} 
+byte\mbox{[}$\,$\mbox{]} Signature\+Verifier.\+Signature\+Verifier\+Utils.\+Extract\+Signature\+From\+Metadata (\begin{DoxyParamCaption}\item[{string}]{metadata}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Extracts the base64-\/encoded digital signature from the PDF metadata string. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em metadata} & The PDF metadata string containing the signature.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The digital signature as a byte array.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & Thrown if the signature marker is not found.\\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{class_signature_verifier_1_1_signature_verifier_utils_a720a3fa74c9865989d9ba3cc54aee01b}\index{SignatureVerifier.SignatureVerifierUtils@{SignatureVerifier.SignatureVerifierUtils}!LoadPublicKeyFromPem@{LoadPublicKeyFromPem}}
+\index{LoadPublicKeyFromPem@{LoadPublicKeyFromPem}!SignatureVerifier.SignatureVerifierUtils@{SignatureVerifier.SignatureVerifierUtils}}
+\doxysubsubsection{\texorpdfstring{LoadPublicKeyFromPem()}{LoadPublicKeyFromPem()}}
+{\footnotesize\ttfamily \label{class_signature_verifier_1_1_signature_verifier_utils_a720a3fa74c9865989d9ba3cc54aee01b} 
+byte\mbox{[}$\,$\mbox{]} Signature\+Verifier.\+Signature\+Verifier\+Utils.\+Load\+Public\+Key\+From\+Pem (\begin{DoxyParamCaption}\item[{string}]{pem}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Parses a PEM formatted public key string and returns the DER encoded key bytes. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pem} & The PEM formatted string.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Byte array containing the public key.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & Thrown if the PEM format is invalid or content is empty.\\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Signature\+Verifier/Verifier\+Utils.\+cs\end{DoxyCompactItemize}

@@ -1,0 +1,52 @@
+\doxysection{PAd\+ES\+\_\+\+Signature\+App.\+Signer Class Reference}
+\hypertarget{class_p_ad_e_s___signature_app_1_1_signer}{}\label{class_p_ad_e_s___signature_app_1_1_signer}\index{PAdES\_SignatureApp.Signer@{PAdES\_SignatureApp.Signer}}
+
+
+Provides functionality to digitally sign PDF documents using RSA private keys.  
+
+
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static string \mbox{\hyperlink{class_p_ad_e_s___signature_app_1_1_signer_ad0444043f3ccf088bdd95b33925042d1}{Sign\+Pdf}} (string file\+Path, byte\mbox{[}$\,$\mbox{]} private\+Key\+Bytes)
+\begin{DoxyCompactList}\small\item\em Signs a PDF file using the provided RSA private key bytes. The method adds a visible "{}\+Signed\+: ✅"{} annotation to the first page and embeds signature metadata in PDF info keywords. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Provides functionality to digitally sign PDF documents using RSA private keys. 
+
+\label{doc-func-members}
+\Hypertarget{class_p_ad_e_s___signature_app_1_1_signer_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_p_ad_e_s___signature_app_1_1_signer_ad0444043f3ccf088bdd95b33925042d1}\index{PAdES\_SignatureApp.Signer@{PAdES\_SignatureApp.Signer}!SignPdf@{SignPdf}}
+\index{SignPdf@{SignPdf}!PAdES\_SignatureApp.Signer@{PAdES\_SignatureApp.Signer}}
+\doxysubsubsection{\texorpdfstring{SignPdf()}{SignPdf()}}
+{\footnotesize\ttfamily \label{class_p_ad_e_s___signature_app_1_1_signer_ad0444043f3ccf088bdd95b33925042d1} 
+string PAd\+ES\+\_\+\+Signature\+App.\+Signer.\+Sign\+Pdf (\begin{DoxyParamCaption}\item[{string}]{file\+Path}{, }\item[{byte\mbox{[}$\,$\mbox{]}}]{private\+Key\+Bytes}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Signs a PDF file using the provided RSA private key bytes. The method adds a visible "{}\+Signed\+: ✅"{} annotation to the first page and embeds signature metadata in PDF info keywords. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Path} & The path to the PDF file to be signed.\\
+\hline
+{\em private\+Key\+Bytes} & The RSA private key in PKCS\#1 or PKCS\#8 format.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The full path of the newly saved signed PDF file.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Exception} & Thrown when {\itshape file\+Path}  is null or empty.\\
+\hline
+{\em Invalid\+Operation\+Exception} & Thrown when the directory of the file path cannot be determined.\\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+PAd\+ES\+\_\+\+Signature\+App/Signer.\+cs\end{DoxyCompactItemize}

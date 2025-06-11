@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PAdES_SignatureApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+077581ec843ddc94d3ceb6fd2cec53293cb1273a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+400514f141895e3122b8d3408c1060e1ecf1d0a9")]
 [assembly: System.Reflection.AssemblyProductAttribute("PAdES_SignatureApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PAdES_SignatureApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
