@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EB9DDF5E-97E4-46EE-A179-9E15B06F6753}|Tests\\Tests.csproj|c:\\users\\alla\\documents\\github\\security-of-computer-systems-\\pades_signatureapp\\tests\\keygeneratorapptests\\keygeneratortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB9DDF5E-97E4-46EE-A179-9E15B06F6753}|Tests\\Tests.csproj|solutionrelative:tests\\keygeneratorapptests\\keygeneratortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7B0B627-621F-4E53-8232-F7C7E8A3B43F}|PAdES_SignatureApp\\PAdES_SignatureApp.csproj|c:\\users\\alla\\documents\\github\\security-of-computer-systems-\\pades_signatureapp\\pades_signatureapp\\signer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B0B627-621F-4E53-8232-F7C7E8A3B43F}|PAdES_SignatureApp\\PAdES_SignatureApp.csproj|solutionrelative:pades_signatureapp\\signer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7B0B627-621F-4E53-8232-F7C7E8A3B43F}|PAdES_SignatureApp\\PAdES_SignatureApp.csproj|c:\\users\\alla\\documents\\github\\security-of-computer-systems-\\pades_signatureapp\\pades_signatureapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B0B627-621F-4E53-8232-F7C7E8A3B43F}|PAdES_SignatureApp\\PAdES_SignatureApp.csproj|solutionrelative:pades_signatureapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{22D1EAF2-E13C-47B4-853A-1C2156EAA3EC}|SignatureVerifier\\SignatureVerifier.csproj|c:\\users\\alla\\documents\\github\\security-of-computer-systems-\\pades_signatureapp\\signatureverifier\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22D1EAF2-E13C-47B4-853A-1C2156EAA3EC}|SignatureVerifier\\SignatureVerifier.csproj|solutionrelative:signatureverifier\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{22D1EAF2-E13C-47B4-853A-1C2156EAA3EC}|SignatureVerifier\\SignatureVerifier.csproj|c:\\users\\alla\\documents\\github\\security-of-computer-systems-\\pades_signatureapp\\signatureverifier\\verifierutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22D1EAF2-E13C-47B4-853A-1C2156EAA3EC}|SignatureVerifier\\SignatureVerifier.csproj|solutionrelative:signatureverifier\\verifierutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B0B627-621F-4E53-8232-F7C7E8A3B43F}|PAdES_SignatureApp\\PAdES_SignatureApp.csproj|c:\\users\\alla\\documents\\github\\security-of-computer-systems-\\pades_signatureapp\\pades_signatureapp\\signer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B0B627-621F-4E53-8232-F7C7E8A3B43F}|PAdES_SignatureApp\\PAdES_SignatureApp.csproj|solutionrelative:pades_signatureapp\\signer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7B0B627-621F-4E53-8232-F7C7E8A3B43F}|PAdES_SignatureApp\\PAdES_SignatureApp.csproj|c:\\users\\alla\\documents\\github\\security-of-computer-systems-\\pades_signatureapp\\pades_signatureapp\\cryptohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,24 +23,32 @@
       "RelativeMoniker": "D:0:0:{8248723A-B6D6-4D78-8E55-C4E39783C2FF}|KeyGeneratorApp\\KeyGeneratorApp.csproj|solutionrelative:keygeneratorapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7B0B627-621F-4E53-8232-F7C7E8A3B43F}|PAdES_SignatureApp\\PAdES_SignatureApp.csproj|c:\\users\\alla\\documents\\github\\security-of-computer-systems-\\pades_signatureapp\\pades_signatureapp\\pades_signatureapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A7B0B627-621F-4E53-8232-F7C7E8A3B43F}|PAdES_SignatureApp\\PAdES_SignatureApp.csproj|solutionrelative:pades_signatureapp\\pades_signatureapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8248723A-B6D6-4D78-8E55-C4E39783C2FF}|KeyGeneratorApp\\KeyGeneratorApp.csproj|c:\\users\\alla\\documents\\github\\security-of-computer-systems-\\pades_signatureapp\\keygeneratorapp\\keygenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8248723A-B6D6-4D78-8E55-C4E39783C2FF}|KeyGeneratorApp\\KeyGeneratorApp.csproj|solutionrelative:keygeneratorapp\\keygenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB9DDF5E-97E4-46EE-A179-9E15B06F6753}|Tests\\Tests.csproj|c:\\users\\alla\\documents\\github\\security-of-computer-systems-\\pades_signatureapp\\tests\\pades_signatureapptests\\signertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB9DDF5E-97E4-46EE-A179-9E15B06F6753}|Tests\\Tests.csproj|solutionrelative:tests\\pades_signatureapptests\\signertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB9DDF5E-97E4-46EE-A179-9E15B06F6753}|Tests\\Tests.csproj|c:\\users\\alla\\documents\\github\\security-of-computer-systems-\\pades_signatureapp\\tests\\signatureverifiertests\\verifierutilstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB9DDF5E-97E4-46EE-A179-9E15B06F6753}|Tests\\Tests.csproj|solutionrelative:tests\\signatureverifiertests\\verifierutilstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EB9DDF5E-97E4-46EE-A179-9E15B06F6753}|Tests\\Tests.csproj|c:\\users\\alla\\documents\\github\\security-of-computer-systems-\\pades_signatureapp\\tests\\pades_signatureapptests\\signertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB9DDF5E-97E4-46EE-A179-9E15B06F6753}|Tests\\Tests.csproj|solutionrelative:tests\\pades_signatureapptests\\signertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EB9DDF5E-97E4-46EE-A179-9E15B06F6753}|Tests\\Tests.csproj|c:\\users\\alla\\documents\\github\\security-of-computer-systems-\\pades_signatureapp\\tests\\pades_signatureapptests\\cryptohelpertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB9DDF5E-97E4-46EE-A179-9E15B06F6753}|Tests\\Tests.csproj|solutionrelative:tests\\pades_signatureapptests\\cryptohelpertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB9DDF5E-97E4-46EE-A179-9E15B06F6753}|Tests\\Tests.csproj|c:\\users\\alla\\documents\\github\\security-of-computer-systems-\\pades_signatureapp\\tests\\keygeneratorapptests\\keygeneratortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB9DDF5E-97E4-46EE-A179-9E15B06F6753}|Tests\\Tests.csproj|solutionrelative:tests\\keygeneratorapptests\\keygeneratortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B0B627-621F-4E53-8232-F7C7E8A3B43F}|PAdES_SignatureApp\\PAdES_SignatureApp.csproj|c:\\users\\alla\\documents\\github\\security-of-computer-systems-\\pades_signatureapp\\pades_signatureapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B0B627-621F-4E53-8232-F7C7E8A3B43F}|PAdES_SignatureApp\\PAdES_SignatureApp.csproj|solutionrelative:pades_signatureapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B0B627-621F-4E53-8232-F7C7E8A3B43F}|PAdES_SignatureApp\\PAdES_SignatureApp.csproj|c:\\users\\alla\\documents\\github\\security-of-computer-systems-\\pades_signatureapp\\pades_signatureapp\\pades_signatureapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A7B0B627-621F-4E53-8232-F7C7E8A3B43F}|PAdES_SignatureApp\\PAdES_SignatureApp.csproj|solutionrelative:pades_signatureapp\\pades_signatureapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB9DDF5E-97E4-46EE-A179-9E15B06F6753}|Tests\\Tests.csproj|c:\\users\\alla\\documents\\github\\security-of-computer-systems-\\pades_signatureapp\\tests\\tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -86,21 +86,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Signer.cs",
               "DocumentMoniker": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\PAdES_SignatureApp\\Signer.cs",
               "RelativeDocumentMoniker": "PAdES_SignatureApp\\Signer.cs",
               "ToolTip": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\PAdES_SignatureApp\\Signer.cs",
               "RelativeToolTip": "PAdES_SignatureApp\\Signer.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAgwDcAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAgwDoAAAB/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T14:35:55.595Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -108,124 +107,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\PAdES_SignatureApp\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "PAdES_SignatureApp\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\PAdES_SignatureApp\\MainWindow.xaml.cs",
-              "RelativeToolTip": "PAdES_SignatureApp\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAAADQAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T10:06:37.122Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\SignatureVerifier\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "SignatureVerifier\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\SignatureVerifier\\MainWindow.xaml.cs",
               "RelativeToolTip": "SignatureVerifier\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAqwIcAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAAAH0AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T14:40:29.338Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "KeyGeneratorTests.cs",
-              "DocumentMoniker": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\Tests\\KeyGeneratorAppTests\\KeyGeneratorTests.cs",
-              "RelativeDocumentMoniker": "Tests\\KeyGeneratorAppTests\\KeyGeneratorTests.cs",
-              "ToolTip": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\Tests\\KeyGeneratorAppTests\\KeyGeneratorTests.cs",
-              "RelativeToolTip": "Tests\\KeyGeneratorAppTests\\KeyGeneratorTests.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAUwCgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T17:54:28.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "VerifierUtils.cs",
-              "DocumentMoniker": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\SignatureVerifier\\VerifierUtils.cs",
-              "RelativeDocumentMoniker": "SignatureVerifier\\VerifierUtils.cs",
-              "ToolTip": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\SignatureVerifier\\VerifierUtils.cs",
-              "RelativeToolTip": "SignatureVerifier\\VerifierUtils.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwAQAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T18:06:29.681Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CryptoHelper.cs",
-              "DocumentMoniker": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\PAdES_SignatureApp\\CryptoHelper.cs",
-              "RelativeDocumentMoniker": "PAdES_SignatureApp\\CryptoHelper.cs",
-              "ToolTip": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\PAdES_SignatureApp\\CryptoHelper.cs",
-              "RelativeToolTip": "PAdES_SignatureApp\\CryptoHelper.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAADwvwkAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T14:35:38.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\KeyGeneratorApp\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "KeyGeneratorApp\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\KeyGeneratorApp\\MainWindow.xaml.cs",
-              "RelativeToolTip": "KeyGeneratorApp\\MainWindow.xaml.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAqwDkAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T14:16:55.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PAdES_SignatureApp.csproj",
-              "DocumentMoniker": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\PAdES_SignatureApp\\PAdES_SignatureApp.csproj",
-              "RelativeDocumentMoniker": "PAdES_SignatureApp\\PAdES_SignatureApp.csproj",
-              "ToolTip": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\PAdES_SignatureApp\\PAdES_SignatureApp.csproj",
-              "RelativeToolTip": "PAdES_SignatureApp\\PAdES_SignatureApp.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-10T18:10:26.186Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "KeyGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\KeyGeneratorApp\\KeyGenerator.cs",
-              "RelativeDocumentMoniker": "KeyGeneratorApp\\KeyGenerator.cs",
-              "ToolTip": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\KeyGeneratorApp\\KeyGenerator.cs",
-              "RelativeToolTip": "KeyGeneratorApp\\KeyGenerator.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAwwEUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T14:28:33.062Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SignerTests.cs",
-              "DocumentMoniker": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\Tests\\PAdES_SignatureAppTests\\SignerTests.cs",
-              "RelativeDocumentMoniker": "Tests\\PAdES_SignatureAppTests\\SignerTests.cs",
-              "ToolTip": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\Tests\\PAdES_SignatureAppTests\\SignerTests.cs",
-              "RelativeToolTip": "Tests\\PAdES_SignatureAppTests\\SignerTests.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAmwCAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T18:01:21.39Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "VerifierUtilsTests.cs",
               "DocumentMoniker": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\Tests\\SignatureVerifierTests\\VerifierUtilsTests.cs",
               "RelativeDocumentMoniker": "Tests\\SignatureVerifierTests\\VerifierUtilsTests.cs",
@@ -233,12 +128,47 @@
               "RelativeToolTip": "Tests\\SignatureVerifierTests\\VerifierUtilsTests.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T18:03:49.489Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T18:03:49.489Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
+              "Title": "VerifierUtils.cs",
+              "DocumentMoniker": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\SignatureVerifier\\VerifierUtils.cs",
+              "RelativeDocumentMoniker": "SignatureVerifier\\VerifierUtils.cs",
+              "ToolTip": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\SignatureVerifier\\VerifierUtils.cs",
+              "RelativeToolTip": "SignatureVerifier\\VerifierUtils.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAcwFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T18:06:29.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CryptoHelper.cs",
+              "DocumentMoniker": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\PAdES_SignatureApp\\CryptoHelper.cs",
+              "RelativeDocumentMoniker": "PAdES_SignatureApp\\CryptoHelper.cs",
+              "ToolTip": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\PAdES_SignatureApp\\CryptoHelper.cs",
+              "RelativeToolTip": "PAdES_SignatureApp\\CryptoHelper.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T14:35:38.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SignerTests.cs",
+              "DocumentMoniker": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\Tests\\PAdES_SignatureAppTests\\SignerTests.cs",
+              "RelativeDocumentMoniker": "Tests\\PAdES_SignatureAppTests\\SignerTests.cs",
+              "ToolTip": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\Tests\\PAdES_SignatureAppTests\\SignerTests.cs",
+              "RelativeToolTip": "Tests\\PAdES_SignatureAppTests\\SignerTests.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T18:01:21.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "CryptoHelperTests.cs",
               "DocumentMoniker": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\Tests\\PAdES_SignatureAppTests\\CryptoHelperTests.cs",
               "RelativeDocumentMoniker": "Tests\\PAdES_SignatureAppTests\\CryptoHelperTests.cs",
@@ -247,6 +177,66 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T17:57:45.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "KeyGeneratorTests.cs",
+              "DocumentMoniker": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\Tests\\KeyGeneratorAppTests\\KeyGeneratorTests.cs",
+              "RelativeDocumentMoniker": "Tests\\KeyGeneratorAppTests\\KeyGeneratorTests.cs",
+              "ToolTip": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\Tests\\KeyGeneratorAppTests\\KeyGeneratorTests.cs",
+              "RelativeToolTip": "Tests\\KeyGeneratorAppTests\\KeyGeneratorTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T17:54:28.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\PAdES_SignatureApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PAdES_SignatureApp\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\PAdES_SignatureApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "PAdES_SignatureApp\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAADQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T10:06:37.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\KeyGeneratorApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "KeyGeneratorApp\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\KeyGeneratorApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "KeyGeneratorApp\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T14:16:55.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "KeyGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\KeyGeneratorApp\\KeyGenerator.cs",
+              "RelativeDocumentMoniker": "KeyGeneratorApp\\KeyGenerator.cs",
+              "ToolTip": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\KeyGeneratorApp\\KeyGenerator.cs",
+              "RelativeToolTip": "KeyGeneratorApp\\KeyGenerator.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T14:28:33.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PAdES_SignatureApp.csproj",
+              "DocumentMoniker": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\PAdES_SignatureApp\\PAdES_SignatureApp.csproj",
+              "RelativeDocumentMoniker": "PAdES_SignatureApp\\PAdES_SignatureApp.csproj",
+              "ToolTip": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\PAdES_SignatureApp\\PAdES_SignatureApp.csproj",
+              "RelativeToolTip": "PAdES_SignatureApp\\PAdES_SignatureApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-10T18:10:26.186Z"
             },
             {
               "$type": "Document",
@@ -269,8 +259,7 @@
               "ToolTip": "C:\\Users\\alla\\Documents\\GitHub\\Security-of-computer-systems-\\PAdES_SignatureApp\\PAdES_SignatureApp\\MainWindow.xaml",
               "RelativeToolTip": "PAdES_SignatureApp\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-06T10:06:43.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T10:06:43.291Z"
             },
             {
               "$type": "Document",
