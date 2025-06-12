@@ -128,8 +128,15 @@ namespace SignatureVerifierApp
                 var doc = PdfReader.Open(pdfPath, PdfDocumentOpenMode.ReadOnly);
                 string keywords = doc.Info.Keywords ?? throw new Exception("No metadata found in PDF.");
 
+                
+
                 byte[] signature = SignatureVerifierUtils.ExtractSignatureFromMetadata(keywords);
                 byte[] originalHash = SignatureVerifierUtils.ExtractHashFromMetadata(keywords);
+
+                if (!doc.GetHashCode().Equals(originalHash))
+                {
+                    UpdateStatus("❌ Signature is INVALID!", Brushes.Red);
+                }
 
                 UpdateStatus("🔍 Verifying signature...", Brushes.DarkBlue);
 
